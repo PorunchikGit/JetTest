@@ -19,9 +19,11 @@ deploy.sh - Развертывания load.sh в cron
 
 Для развертывания:
 1. Клонируем репозиторий в удобное место 
+
 git clon https://github.com/PorunchikGit/JetTest.git
 
 2. Добавить права доступа load.sh
+
 chmod a+x load.sh
 
 3. Запустить скрипт deploy.sh и следовать указаниям ( Или настроить cron самостоятельно для выполнения load.sh каждую минуту)
