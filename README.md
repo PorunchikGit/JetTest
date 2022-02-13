@@ -27,6 +27,7 @@ git clon https://github.com/PorunchikGit/JetTest.git
 chmod a+x load.sh
 
 3. Запустить скрипт deploy.sh и следовать указаниям ( Или настроить cron самостоятельно для выполнения load.sh каждую минуту)
+
 bash deploy.sh
 
 Для отключения удалите задачу в /etc/crontab
